@@ -1,0 +1,14 @@
+{
+  "period_ticks": 256,
+  "clock": "colorful:sunrise_sunset_color",
+  "tracks": {
+    "visual/sunrise_sunset_color": {
+      "ease": "linear",
+      "modifier": "add",
+      "keyframes": [
+        {"ticks": 0, "value": "#000000"},
+        {"ticks": 255, "value": "#0000ff"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "period_ticks": 65536,
+  "clock": "colorful:sky_color",
+  "tracks": {
+    "visual/sky_color": {
+      "ease": "linear",
+      "modifier": "add",
+      "keyframes": [
+        {"ticks": 0, "value": "#000000"},
+        {"ticks": 65280, "value": "#00ff00"},
+        {"ticks": 65535, "value": "#00ff00"}
+      ]
+    }
+  }
+}

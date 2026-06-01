@@ -1,0 +1,15 @@
+{
+  "period_ticks": 16777216,
+  "clock": "colorful:water_fog_color",
+  "tracks": {
+    "visual/water_fog_color": {
+      "ease": "linear",
+      "modifier": "add",
+      "keyframes": [
+        {"ticks": 0, "value": "#000000"},
+        {"ticks": 16711680, "value": "#ff0000"},
+        {"ticks": 16777215, "value": "#ff0000"}
+      ]
+    }
+  }
+}
